@@ -23,16 +23,20 @@ header {
     border:grey solid 5px; 
     color: #ffffff;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 header h1 {
     font-size: 45px;
+    margin-right: 20px;
     
 }
 
 header img {
     max-width: 100px;
     max-height: auto;
+    margin-left: 20px;
+    margin-right: 45px;
 }
 
 header nav {
@@ -80,19 +84,23 @@ main section ul {
 /* Work */
 section {
     padding: 30px;
+    font-size: 18px;
 }
 
 section figure p{
     padding: 20px 20px 20px 0px;
     color: black;
     text-align: left;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 #app_text {
     padding-left: 20px;
+    font-size: 18px;
 }
 
-#main_image {
+#main_image {  /* image for application 1*/ 
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -197,6 +205,7 @@ footer h4 {
     header nav ul li {
         margin: 5px;
         text-align: center;
+        font-size: 15px;
     }
 
     }
