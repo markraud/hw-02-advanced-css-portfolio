@@ -1,3 +1,4 @@
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -5,21 +6,33 @@ a {
 
 body {
     background-color: #d9dcd6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 
 /* Header */
 header {
+    display: flex;
     padding: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
     background-color:#364B8E;
-    border:grey solid 2px; 
+    border:grey solid 5px; 
     color: #ffffff;
+    flex-wrap: wrap;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 40px;
+    font-size: 45px;
+    
+}
+
+header img {
+    max-width: 100px;
+    max-height: auto;
 }
 
 header nav {
@@ -31,16 +44,37 @@ header nav {
 }
 
 header nav ul {
-    list-style-type: none;
+    margin-left: 50px;
+
 }
 
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin: 5px;
 }
 
 /* About Me */
 
+main section h2 {
+    padding: 20px 20px 20px 0;
+}
+
+main section h3 {
+    padding: 20px 20px 20px 0;
+    
+}
+
+main section p {
+    line-height: 1.5;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+main section ul {
+    margin: 0 0 0 50px;
+    line-height: 1.5;
+}
 
 
 /* Work */
@@ -48,9 +82,31 @@ section {
     padding: 30px;
 }
 
+section figure p{
+    padding: 20px 20px 20px 0px;
+    color: black;
+    text-align: left;
+}
+
+#app_text {
+    padding-left: 20px;
+}
+
+#main_image {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    
+}
+
+#main_image p {
+    padding: 20px 20px 0 0;
+}
+
 img {
-    width:200px;
-    height: 200px:
+    width:300px;
+    height: auto;
+    
 }
 
 .flex-container {
@@ -59,30 +115,32 @@ img {
 }
 
 .box {
-    flex-grow: 1;
+    flex: 1;
     min-width: 300px;
-    max-width: 700px
-    height: 300px;
+    max-width: 700px;
     padding: 20px;
+    
 }
 
-#main_image{
-    display: block;
-    width: 900px;
-    height: 500px;
-    padding: 20px;
+#click_app {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-style: italic;
 }
-
 
 footer {
     background-color: #364B8E;
-    border:grey solid 2px;
+    border:grey solid 5px;
     padding: 20px;
     text-align: center;
 }
 
+footer h4 {
+    font-size: 14px;
+}
 
 .contact_info {
+    display: flex;
     padding: 20px;
     min-width: 100px;
 
@@ -91,5 +149,55 @@ footer {
 .contact_info a {
     color: black;
     text-decoration: none;
+    flex-wrap: wrap;
 
 }
+
+
+@media screen and (max-width: 700px){
+        
+    #main_image {
+        width:699x;
+        height: 250px;
+    }
+
+    header h1 {
+        font-size: 25px;
+        
+    }
+    header img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    header nav ul li {
+        margin: 5px;
+        text-align: center;
+    }
+
+    }
+
+    
+@media screen and (max-width: 380px){
+        
+    #main_image {
+        min-width:200px;
+        height: 150px;
+    }
+
+    header h1 {
+        font-size: 20px;
+        
+    }
+    header img {
+        max-width: 25px;
+        max-height: 25px;
+    }
+
+    header nav ul li {
+        margin: 5px;
+        text-align: center;
+    }
+
+    }
+
