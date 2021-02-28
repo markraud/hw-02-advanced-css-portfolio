@@ -80,6 +80,13 @@ main section ul {
     line-height: 1.5;
 }
 
+main section ul {
+    font-size: 14px;
+    font-weight: bolder;
+    list-style-type: circle  /* adds circle bullets to list*/
+    
+} 
+
 
 /* Work */
 section {
