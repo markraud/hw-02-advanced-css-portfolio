@@ -28,6 +28,15 @@ The website is built with HTML and CSS(including flexbox).
 
 ![bottom of the site](./assets/images/dev_portfolio_screenshot3.jpg "Bottom")
 
+#### Contact Info:
+Built by Mark Raudenbush
+markraud@hotmail.com
+- [My LinkedIn](https://www.linkedin.com/in/markraudenbush)
+- [My GitHub](https://github.com/markraud?tab=stars)
+
+#### License:
+The MIT License (MIT)
+
 #### Summary:
 
 This project taught me about using HTML and CSS.  Making the site responsive was particularly tough.
